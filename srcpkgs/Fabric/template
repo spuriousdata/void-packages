@@ -1,0 +1,19 @@
+# Template file for 'fabric'
+pkgname=Fabric
+version=1.13.2
+revision=1
+build_style=python2-module
+pycompile_module="fabric"
+noarch=yes
+hostmakedepends="python-setuptools python-devel"
+depends="python-setuptools python-paramiko"
+short_desc="A simple, Pythonic tool for remote execution and deployment"
+maintainer="Mike O'Malley <spuriousdata@gmail.com>"
+license="BSD"
+homepage="http://www.fabfile.org/"
+distfiles="$PYPI_SITE/F/Fabric/Fabric-${version}.tar.gz"
+checksum=98af64a1fe19d9c6a229265aec4e9fdaf3127ac2000db3e2e19007927b23244d
+
+post_install() {
+	vlicense LICENSE
+}
