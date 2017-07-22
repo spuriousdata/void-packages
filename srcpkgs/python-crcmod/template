@@ -1,0 +1,15 @@
+# Template file for 'python-crcmod'
+pkgname=python-crcmod
+version=1.7
+revision=1
+wrksrc="crcmod-${version}"
+build_style=python-module
+pycompile_module="crcmod"
+hostmakedepends="python-setuptools"
+makedepends="python-devel"
+short_desc="CRC Generator"
+maintainer="Mike O'Malley <spuriousdata@gmail.com>"
+homepage="http://crcmod.sourceforge.net/"
+license="MIT"
+distfiles="${PYPI_SITE}/c/crcmod/crcmod-${version}.tar.gz"
+checksum=dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e
