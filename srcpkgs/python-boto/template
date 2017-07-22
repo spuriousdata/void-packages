@@ -1,0 +1,21 @@
+# Template file for 'python-boto'
+pkgname=python-boto
+version=2.48.0
+revision=1
+noarch=yes
+build_style=python-module
+pycompile_module="boto"
+hostmakedepends="python-setuptools"
+#depends="python-future python-requests python-requests-oauthlib"
+short_desc="Python package that provides interfaces to Amazon Web Services"
+wrksrc="boto-${version}"
+maintainer="Mike O'Malley <spuriousdata@gmail.com>"
+license="MIT"
+homepage="https://pypi.python.org/pypi/boto"
+distfiles="${PYPI_SITE}/b/boto/boto-${version}.tar.gz"
+checksum=deb8925b734b109679e3de65856018996338758f4b916ff4fe7bb62b6d7000d1
+
+pre_build() {
+	#sed -i '/setup_requires=/d' setup.py
+	echo "foo"
+}
