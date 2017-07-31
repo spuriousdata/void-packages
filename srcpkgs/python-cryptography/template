@@ -1,6 +1,6 @@
 # Template file for 'python-cryptography'
 pkgname=python-cryptography
-version=1.9
+version=2.0.2
 revision=1
 wrksrc="cryptography-${version}"
 build_style=python-module
@@ -16,7 +16,7 @@ maintainer="Alessio Sergi <al3hex@gmail.com>"
 homepage="https://github.com/pyca/cryptography"
 license="3-clause-BSD, Apache-2.0"
 distfiles="${PYPI_SITE}/c/cryptography/cryptography-${version}.tar.gz"
-checksum=5518337022718029e367d982642f3e3523541e098ad671672a90b82474c84882
+checksum=3780b2663ee7ebb37cb83263326e3cd7f8b2ea439c448539d4b87de12c8d06ab
 
 post_install() {
 	vlicense LICENSE
