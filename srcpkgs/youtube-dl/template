@@ -1,6 +1,6 @@
 # Template file for 'youtube-dl'
 pkgname=youtube-dl
-version=2017.07.15
+version=2017.07.30.1
 revision=1
 noarch=yes
 wrksrc="${pkgname}"
@@ -14,7 +14,7 @@ maintainer="Juan RP <xtraeme@voidlinux.eu>"
 homepage="http://rg3.github.com/youtube-dl/"
 license="Public Domain"
 distfiles="https://yt-dl.org/downloads/${version}/${pkgname}-${version}.tar.gz"
-checksum=665905606b61cad2f4ac945823722c3bf951f3003f5a24506aea690f4189b5ca
+checksum=4701c7533cced9b10d281031e0f7a95a60e5d38e5a4fd368b410c16e402b36d4
 alternatives="youtube-dl:youtube-dl:/usr/bin/youtube-dl2"
 
 post_install() {
