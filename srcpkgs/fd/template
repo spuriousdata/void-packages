@@ -1,0 +1,21 @@
+# Template file for 'fd'
+pkgname=fd
+version=3.1.0
+revision=1
+hostmakedepends="rust cargo"
+short_desc="A simple, fast and user-friendly alternative to find"
+maintainer="Jerry Tegno <jerrytegno@gmail.com>"
+license="MIT"
+homepage="https://github.com/sharkdp/fd"
+distfiles="https://github.com/sharkdp/${pkgname}/archive/v${version}.tar.gz"
+checksum=03f35f808d4d4a7a5767ba791f259653edab0b9f6829233e98fd617f78a3faaf
+nocross=yes
+
+do_build() {
+	cargo build --release
+}
+
+do_install() {
+	vbin target/release/${pkgname}
+	vlicense LICENSE
+}

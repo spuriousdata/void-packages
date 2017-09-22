@@ -1,7 +1,7 @@
 # Template file for 'python-pyasn1'
 pkgname=python-pyasn1
-version=0.3.3
-revision=2
+version=0.3.5
+revision=1
 noarch=yes
 wrksrc="pyasn1-${version}"
 build_style=python-module
@@ -10,10 +10,10 @@ depends="python"
 pycompile_module="pyasn1"
 short_desc="ASN.1 library for Python2"
 maintainer="Alessio Sergi <al3hex@gmail.com>"
-homepage="http://pyasn1.sourceforge.net/"
+homepage="https://github.com/etingof/pyasn1"
 license="2-clause-BSD"
 distfiles="${PYPI_SITE}/p/pyasn1/pyasn1-${version}.tar.gz"
-checksum=01c20ade412088b42dcd5f0fef6149f6b7377297c5c5f222bb5ef0331ee3517c
+checksum=c7a1186416bcdaf19b56f5b2506200306d7d4cf222d3d7c2d4cb600ccacdaf1b
 
 post_install() {
 	vlicense LICENSE.rst LICENSE
