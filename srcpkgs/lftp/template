@@ -1,6 +1,6 @@
 # Template file for 'lftp'
 pkgname=lftp
-version=4.8.1
+version=4.8.3
 revision=1
 lib32disabled=yes
 build_style=gnu-configure
@@ -17,7 +17,7 @@ maintainer="Juan RP <xtraeme@voidlinux.eu>"
 homepage="http://lftp.yar.ru/"
 license="GPL-3"
 distfiles="http://lftp.yar.ru/ftp/${pkgname}-${version}.tar.xz"
-checksum=e770daa5592ad21bd0b8a8915a0f4fdc2e15dec6c69e754a870ad9c18be57b27
+checksum=de7aee451afaa1aa391f7076b5f602922c2da0e05524a8d8fea413eda83cc78b
 
 XBPS_FETCH_CMD=wget # checks user-agent, serves html/please donate with xbps
 

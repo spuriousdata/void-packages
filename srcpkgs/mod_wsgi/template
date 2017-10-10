@@ -1,6 +1,6 @@
 # Template file for 'mod_wsgi'
 pkgname=mod_wsgi
-version=4.5.18
+version=4.5.20
 revision=1
 lib32disabled=yes
 build_style=gnu-configure
@@ -11,5 +11,5 @@ homepage="https://www.modwsgi.org"
 license="Apache-2.0"
 maintainer="Juan RP <xtraeme@voidlinux.eu>"
 distfiles="https://github.com/GrahamDumpleton/$pkgname/archive/$version.tar.gz"
-checksum=4defb57290f6718c00ae3a43a8f3113a01f0cd5b5de715d9ae596d6c386e06cf
+checksum=37fb0abcaca35435b1cca99e17ea55edee73082bd2196e7999b5b1284baf1f11
 nocross=yes
