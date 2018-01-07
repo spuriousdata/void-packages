@@ -1,7 +1,7 @@
 # Template build file for 'perl-DBI'.
 pkgname=perl-DBI
-version=1.636
-revision=3
+version=1.639
+revision=1
 wrksrc="DBI-${version}"
 build_style=perl-module
 hostmakedepends="perl"
@@ -12,4 +12,4 @@ maintainer="Juan RP <xtraeme@voidlinux.eu>"
 homepage="http://search.cpan.org/dist/DBI"
 license="Artistic, GPL-1"
 distfiles="${CPAN_SITE}/DBI/DBI-$version.tar.gz"
-checksum=8f7ddce97c04b4b7a000e65e5d05f679c964d62c8b02c94c1a7d815bb2dd676c
+checksum=8e2cb3d6a8425bd68702aebbeee01e754ee11ad00e7f4f9a61b75483de104e8c

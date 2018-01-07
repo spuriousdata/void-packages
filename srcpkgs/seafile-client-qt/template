@@ -1,6 +1,6 @@
 # Template file for 'seafile-client-qt'
 pkgname=seafile-client-qt
-version=6.1.1
+version=6.1.4
 revision=1
 _sourcename="seafile-client"
 wrksrc="${_sourcename}-${version}"
@@ -16,7 +16,7 @@ maintainer="yopito <pierre.bourgin@free.fr>"
 license="ASL-2"
 homepage="https://github.com/haiwen/${_sourcename}"
 distfiles="https://github.com/haiwen/${_sourcename}/archive/v${version}.tar.gz>${pkgname}-${version}.tar.gz"
-checksum=19db358c6d6fd5e1d59f7d8a529e8183d33af488f6a861fead078dbf43320d6e
+checksum=fa2433c8925502b563fdd7d93ec5751e4f8e1949b56bf427f2253b86e8c33321
 
 case "$XBPS_TARGET_MACHINE" in
 	*-musl)	# Add musl-fts implementation
