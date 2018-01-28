@@ -65,7 +65,7 @@ libmpxwrappers.so.2 libmpx-6.2.1_1
 libperl.so.5.26 perl-5.26.0_1
 libgmp.so.10 gmp-5.0.1_1
 libgmpxx.so.4 gmpxx-6.0.0_2
-libmpfr.so.4 mpfr-3.0.0_1
+libmpfr.so.6 mpfr-4.0.0_1
 libppl.so.14 ppl-1.2_1
 libppl_c.so.4 ppl-0.11_1
 libstdc++.so.6 libstdc++-4.4.0_1
@@ -387,7 +387,7 @@ libavutil.so.55 libavutil-3.1.3_1
 libavfilter.so.6 libavfilter-3.1.3_1
 libSDL-1.2.so.0 SDL-1.2.14_1
 libSDL_image-1.2.so.0 SDL_image-1.2.10_1
-libx264.so.142 x264-20140928.2245_1
+libx264.so.152 x264-20140928.2245_1
 libxvidcore.so.4 xvidcore-1.2.2_1
 libtag.so.1 taglib-1.6.1_1
 libtag-extras.so.1 taglib-extras-1.0.1_1
@@ -448,7 +448,7 @@ libKScreenLocker.so.5 kscreenlocker-5.8.4_1
 libparted.so.2 libparted-3.1_1
 libparted-fs-resize.so.0 libparted-3.1_1
 libntfs-3g.so.88 ntfs-3g-2017.3.23_1
-libruby.so.2.4 ruby-2.4.0_1
+libruby.so.2.5 ruby-2.5.0_1
 libprocessui.so.7 libksysguard-5.8.4_1
 libksignalplotter.so.7 libksysguard-5.8.4_1
 libksgrd.so.7 libksysguard-5.8.4_1
@@ -500,6 +500,8 @@ libgimpconfig-2.0.so.0 libgimp-2.8.10_3
 libgimpmath-2.0.so.0 libgimp-2.8.10_3
 libgimpcolor-2.0.so.0 libgimp-2.8.10_3
 libgimpmodule-2.0.so.0 libgimp-2.8.10_3
+libgmic.so.2 gmic-2.1.8_1
+libcgmic.so.2 gmic-2.1.8_1
 libexiv2.so.26 exiv2-0.26_1
 libKF5Holidays.so.5 kholidays-16.12.0_1
 libsearchclient.so.0 strigi-0.7.2_1
@@ -1493,7 +1495,7 @@ libwx_gtk2u_media-3.0.so.0 wxWidgets-3.0.1_1
 libwx_gtk2u_webview-3.0.so.0 wxWidgets-3.0.2_3
 libmspack.so.0 libmspack-0.4alpha_1
 libslim.so.1.3.6 slim-1.3.6_1
-libmozjs-24.so mozjs24-24.2.0_1
+libmozjs-38.so mozjs38-38.8.0_1
 libmediaart-2.0.so.0 libmediaart-1.9.1_1
 libinput.so.10 libinput-1.2.0_1
 libvaladoc.so.0 valadoc-0.36.0_1
@@ -1952,10 +1954,11 @@ libFcitxQt5WidgetsAddons.so.1 fcitx-qt5-1.2.1_1
 liblastfm.so.1 liblastfm-1.0.9_1
 liblastfm_fingerprint.so.1 liblastfm-1.0.9_1
 libfcitx-qt5.so.0 libfcitx-qt5-0.1.3_1
-libdruntime-ldc-debug.so.75 ldc-runtime-1.5.0_1
-libdruntime-ldc.so.75 ldc-runtime-1.5.0_1
-libphobos2-ldc.so.75 ldc-runtime-1.5.0_1
-libphobos2-ldc-debug.so.75 ldc-runtime-1.5.0_1
+libdruntime-ldc-debug.so.77 ldc-runtime-1.7.0_1
+libdruntime-ldc.so.77 ldc-runtime-1.7.0_1
+libphobos2-ldc.so.77 ldc-runtime-1.7.0_1
+libphobos2-ldc-debug.so.77 ldc-runtime-1.7.0_1
+libldc-jit.so.77 ldc-runtime-1.7.0_1
 libmarblewidget.so.19 marble-4.14.3_2
 libastro.so.1 marble-4.14.3_2
 libparrot.so.6.9.0 parrot-6.9.0_1
@@ -2718,7 +2721,7 @@ libkmm_mymoney.so.4 kmymoney-4.8.0_1
 libpayeeidentifier_nationalAccount.so.4 kmymoney-4.8.0_1
 libpayeeidentifier_iban_bic.so.4 kmymoney-4.8.0_1
 libkmm_payeeidentifier.so kmymoney-4.8.0_1
-libbotan-2.so.3 botan-2.3.0_1
+libbotan-2.so.4 botan-2.4.0_1
 libswipl.so.7.6 swi-prolog-7.6.0_1
 libpcre2-16.so.0 libpcre2-10.22_1
 libpcre2-32.so.0 libpcre2-10.22_1
@@ -2917,9 +2920,9 @@ libccext2-1.8.so.0 commoncpp2-1.8.1_1
 libucommon.so.8 ucommon-7.0.0_1
 libusecure.so.8 ucommon-7.0.0_1
 libcommoncpp.so.8 ucommon-7.0.0_1
-libmupdf.so.1.11 libmupdf-1.11_4
-libmupdfthird.so.1.11 libmupdf-1.11_4
-libmuthreads.so.1.11 libmupdf-1.11_4
+libmupdf.so.1.12.0 libmupdf-1.12.0_1
+libmupdfthird.so.1.12.0 libmupdf-1.12.0_1
+libmuthreads.so.1.12.0 libmupdf-1.12.0_1
 libdatrie.so.1 libdatrie-0.2.10_1
 libthai.so.0 libthai-0.1.26_1
 libm17n-flt.so.0 m17n-lib-1.7.0_1
@@ -2965,7 +2968,6 @@ libgfshare.so.2 libgfshare-2.0.0_1
 libtracker-miner-2.0.so.0 libtracker-2.0.1_1
 libtacacs.so.1 tacacs-4.0.4.28_1
 libffms2.so.4 libffms2-2.23.1_1
-libduktape.so.201 duktape-2.1.1_1
 libddcutil.so.0 ddcutil-0.8.5_1
 liblsmash.so.2 liblsmash-2.9.1_1
 libgiac.so.0 libgiac-1.4.9r17_1
@@ -3041,6 +3043,8 @@ libqmobipocket.so.2 libqmobipocket-17.04.3_1
 libgloox.so.17 gloox-1.0.20_1
 libgsmsd.so.8 gammu-smsd-1.39.0_1
 libGammu.so.8 gammu-1.39.0_1
+libz3.so z3-4.6.0_2
+libngspice.so.0 ngspice-27_2
 libvulkan.so.1 vulkan-loader-1.0.57.0_1
 libVkLayer_core_validation.so vulkan-validation-layers-1.0.57.0_1
 libVkLayer_device_profile_api.so vulkan-validation-layers-1.0.57.0_1
@@ -3066,3 +3070,10 @@ libKF5PimTextEdit.so.5 kpimtextedit-17.12.0_1
 libKF5IdentityManagement.so.5 kidentitymanagement-17.12.0_1
 libKChart.so.2 kdiagram-2.6.0_1
 libKGantt.so.2 kdiagram-2.6.0_1
+libscrypt.so.0 libscrypt-1.21_1
+libzuluplay.so.1.1 zuluplay-1.1_1
+libzuluCryptPluginManager.so.1.0.0 zulucrypt-5.2.0_1
+libzuluCrypt-exe.so.1.2.0 zulucrypt-5.2.0_1
+libzuluCrypt.so.1.2.0 zulucrypt-5.2.0_1
+libnfdump-1.6.15.so nfdump-1.6.15_1
+libttfautohint.so.1 ttfautohint-1.8.1_1
