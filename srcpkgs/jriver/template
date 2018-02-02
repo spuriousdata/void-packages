@@ -1,0 +1,29 @@
+# Template file for 'jriver'
+_jriverVersion=23.0.93
+_jriverRev=1
+
+pkgname=jriver
+version=${_jriverVersion}.${_jriverRevision}
+revision=1
+maintainer="Mike O'Malley <spuriousdata@gmail.com>"
+homepage="http://jriver.com"
+license="jriver"
+short_desc="Media Player"
+only_for_archs="x86_64"
+
+_baseUrl="http://files.jriver.com/mediacenter/channels/v23/latest"
+_filename="MediaCenter-${_jriverVersion}-amd64.deb"
+_jriverUrl="${_baseUrl}/${_filename}"
+nopie=1
+
+distfiles="${_jriverUrl}"
+checksum=aec7379fba6dcfa354887c584b8add9977ff0b0b98a06f74c118e98d50d83139
+
+do_extract() {
+	mkdir -p ${DESTDIR}
+	ar x ${XBPS_SRCDISTDIR}/jriver-${version}/${_filename}
+}
+
+do_install() {
+	tar xf data.tar.xz -C ${DESTDIR}
+}
